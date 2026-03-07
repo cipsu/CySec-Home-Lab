@@ -29,17 +29,26 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 
 - [x] Home lab setup
 - [x] Network reconnaissance
-- [x] Service enumeration  
+- [x] Service enumeration
 - [x] Remote exploitation
 - [x] Privilege escalation
 - [ ] pfSense firewall configuration
 - [ ] Microsoft Sentinel SIEM setup
+- [ ] Splunk SIEM setup
 - [ ] Detection rule engineering
 - [ ] CTF writeups
 
 ## 📜 Certifications
-*In progress — CompTIA Network+, Security+*
+*In progress:*
+- CompTIA Tech+
+- CompTIA A+
+- CompTIA Network+
+- CompTIA Security+
+- CompTIA CySA+
+- Google Cybersecurity Professional Certificate
+- Microsoft Azure Fundamentals (AZ-900)
+- AWS Cloud Practitioner
 
 ## 🛠️ Tools Used
 Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · 
-VirtualBox · Microsoft Sentinel *(coming soon)*
+VirtualBox · Microsoft Sentinel *(coming soon)* · Splunk *(coming soon)*
