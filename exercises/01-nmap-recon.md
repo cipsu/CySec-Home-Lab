@@ -70,3 +70,4 @@ be exposed to untrusted networks regardless of patch status.
 
 ## Screenshots
 ![Nmap Scan Results](screenshots/01-nmap-scan.png)
+![EternalBlue Vulnerability Scan](screenshots/01-nmap-vuln-scan.png)
