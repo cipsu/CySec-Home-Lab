@@ -26,4 +26,4 @@ NAT only when downloading tools or updates, and immediately returned
 to Host-Only before any exercises are run.
 
 ## Screenshot
-![Lab Setup](exercises/screenshots/lab-setup.png)
+![Lab Setup](../exercises/screenshots/lab-setup.png)
