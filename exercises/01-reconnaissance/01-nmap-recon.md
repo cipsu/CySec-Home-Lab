@@ -19,6 +19,14 @@ nmap -sV 192.168.56.101
 nmap --script smb-vuln-ms17-010 192.168.56.101
 ```
 
+## Screenshots
+
+### Initial Port Scan — 3 Open Ports Identified
+![Nmap Scan Results](../screenshots/01-nmap-scan.png)
+
+### EternalBlue Vulnerability Scan — Host Patched
+![EternalBlue Vulnerability Scan](../screenshots/01-nmap-vuln-scan.png)
+
 ---
 
 ## Results
@@ -67,11 +75,3 @@ not explicitly requiring Windows file sharing. SMB port 445 should never
 be exposed to untrusted networks regardless of patch status.
 
 ---
-
-## Screenshots
-
-### Initial Port Scan — 3 Open Ports Identified
-![Nmap Scan Results](../screenshots/01-nmap-scan.png)
-
-### EternalBlue Vulnerability Scan — Host Patched
-![EternalBlue Vulnerability Scan](../screenshots/01-nmap-vuln-scan.png)
