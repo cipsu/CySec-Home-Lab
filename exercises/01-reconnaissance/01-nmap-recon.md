@@ -19,8 +19,6 @@ nmap -sV 192.168.56.101
 nmap --script smb-vuln-ms17-010 192.168.56.101
 ```
 
-## Screenshots
-
 ### Initial Port Scan — 3 Open Ports Identified
 ![Nmap Scan Results](../screenshots/01-nmap-scan.png)
 
@@ -66,8 +64,6 @@ to an untrusted network. The confirmed patch status against MS17-010
 demonstrates that default Windows 10 installations include critical 
 security updates, but the ports remain exploitable through other means 
 if left unprotected.
-
----
 
 ## Recommendation
 Ports 135, 139 and 445 should be blocked at the firewall on any machine 
