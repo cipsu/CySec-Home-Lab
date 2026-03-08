@@ -19,6 +19,8 @@ in Exercise 01.
 enum4linux 192.168.56.101
 ```
 
+![enum4linux Results](../screenshots/02-smb-enumeration.png)
+
 ---
 
 ## Results
@@ -69,8 +71,3 @@ NetBIOS (port 139) should be disabled on machines that do not require
 legacy file sharing. SMB port 445 should be restricted at the firewall 
 to only trusted internal IPs. Machine names and network roles should 
 not be discoverable by unauthenticated users.
-
----
-
-## Screenshots
-![enum4linux Results](screenshots/02-smb-enumeration.png)
