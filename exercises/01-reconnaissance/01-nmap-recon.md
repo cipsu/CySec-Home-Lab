@@ -69,5 +69,3 @@ if left unprotected.
 Ports 135, 139 and 445 should be blocked at the firewall on any machine 
 not explicitly requiring Windows file sharing. SMB port 445 should never 
 be exposed to untrusted networks regardless of patch status.
-
----
