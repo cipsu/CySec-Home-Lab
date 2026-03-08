@@ -19,6 +19,7 @@ in Exercise 01.
 enum4linux 192.168.56.101
 ```
 
+### enum4linux Output — System Information Retrieved
 ![enum4linux Results](../screenshots/02-smb-enumeration.png)
 
 ---
