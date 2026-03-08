@@ -40,10 +40,8 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 
 ## 📜 Certifications
 *In progress:*
-- CompTIA Tech+
-- CompTIA A+
-- CompTIA Network+
 - CompTIA Security+
+- CompTIA Network+
 - CompTIA CySA+
 - Google Cybersecurity Professional Certificate
 - Microsoft Azure Fundamentals (AZ-900)
