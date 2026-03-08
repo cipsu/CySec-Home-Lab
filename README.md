@@ -19,11 +19,11 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 
 | # | Title | Category | Tools |
 |---|---|---|---|
-| 01 | [Network Reconnaissance Scan](exercises/01-nmap-recon.md) | Recon | Nmap |
-| 02 | [SMB Enumeration](exercises/02-smb-enumeration.md) | Enumeration | enum4linux |
-| 03 | [vsftpd Backdoor Exploit](exercises/03-vsftpd-exploit.md) | Exploitation | Metasploit |
-| 04 | [Samba Usermap Exploit](exercises/04-samba-exploit.md) | Exploitation | Metasploit |
-| 05 | [distcc RCE + Privilege Escalation](exercises/05-distcc-privesc.md) | Exploitation / PrivEsc | Metasploit, nmap SUID |
+| 01 | [Network Reconnaissance Scan](exercises/01-reconnaissance/01-nmap-recon.md) | Recon | Nmap |
+| 02 | [SMB Enumeration](exercises/01-reconnaissance/02-smb-enumeration.md) | Enumeration | enum4linux |
+| 03 | [vsftpd Backdoor Exploit](exercises/02-exploitation/03-vsftpd-backdoor.md) | Exploitation | Metasploit |
+| 04 | [Samba Usermap Exploit](exercises/02-exploitation/04-samba-usermap.md) | Exploitation | Metasploit |
+| 05 | [distcc RCE + Privilege Escalation](exercises/02-exploitation/05-distcc-privesc.md) | Exploitation / PrivEsc | Metasploit, nmap SUID |
 
 ## 🎯 Learning Path
 
