@@ -71,7 +71,7 @@ be exposed to untrusted networks regardless of patch status.
 ## Screenshots
 
 ### Initial Port Scan — 3 Open Ports Identified
-![Nmap Scan Results](screenshots/01-nmap-scan.png)
+![Nmap Scan Results](../screenshots/01-nmap-scan.png)
 
 ### EternalBlue Vulnerability Scan — Host Patched
-![EternalBlue Vulnerability Scan](screenshots/01-nmap-vuln-scan.png)
+![EternalBlue Vulnerability Scan](../screenshots/01-nmap-vuln-scan.png)
