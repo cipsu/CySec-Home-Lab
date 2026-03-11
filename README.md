@@ -33,7 +33,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - [x] Service enumeration
 - [x] Remote exploitation
 - [x] Privilege escalation
-- [ ] pfSense firewall configuration
+- [x] pfSense firewall configuration
 - [ ] Microsoft Sentinel SIEM setup
 - [ ] Splunk SIEM setup
 - [ ] Detection rule engineering
