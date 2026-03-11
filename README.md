@@ -24,6 +24,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 03 | [vsftpd Backdoor Exploit](exercises/02-exploitation/03-vsftpd-backdoor.md) | Exploitation | Metasploit |
 | 04 | [Samba Usermap Exploit](exercises/02-exploitation/04-samba-usermap.md) | Exploitation | Metasploit |
 | 05 | [distcc RCE + Privilege Escalation](exercises/02-exploitation/05-distcc-privesc.md) | Exploitation / PrivEsc | Metasploit, nmap SUID |
+| 06 | [pfSense Firewall Setup & Traffic Control](exercises/03-defense-and-detection/06-pfsense-firewall.md) | Defense / Detection | pfSense, Metasploit, Nmap |
 
 ## 🎯 Learning Path
 
