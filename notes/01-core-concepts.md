@@ -163,7 +163,3 @@ from across the network (firewalls, endpoints, servers), correlates
 them, and generates alerts. Splunk and Microsoft Sentinel are the two
 most common platforms — and the closest simulation to actual SOC
 analyst work.
-
-| 18-23 | Shells & access | ✅ | ✅ |
-| 24-25 | Linux files | ⬜ | ✅ |
-| 26-30 | Defense & detection | ✅ | ✅ |
