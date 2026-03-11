@@ -2,4 +2,6 @@
 
 https://github.com/vanhauser-thc/thc-hydra
 
+https://tryhackme.com/room/hydra?ref=blog.tryhackme.com
+
 ---
