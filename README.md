@@ -12,8 +12,10 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | Hypervisor | Oracle VirtualBox 7.2.6 |
 | Attacker VM | Kali Linux 2025.4 — 192.168.56.102 |
 | Victim VM | Windows 10 — 192.168.56.101 |
-| Target VM | Metasploitable 2 — 192.168.56.103 |
-| Network | Host-Only (fully isolated) |
+| Firewall VM | pfSense 2.7.2 — WAN 192.168.56.104 / LAN 192.168.1.1 |
+| Target VM | Metasploitable 2 — 192.168.1.100 |
+| SIEM | Splunk Enterprise — http://localhost:8000 |
+| Network | Host-Only (Kali + pfSense WAN) / Internal Network (pfSense LAN + Metasploitable) |
 
 ## 📋 Exercises
 
@@ -25,6 +27,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 04 | [Samba Usermap Exploit](exercises/02-exploitation/04-samba-usermap.md) | Exploitation | Metasploit |
 | 05 | [distcc RCE + Privilege Escalation](exercises/02-exploitation/05-distcc-privesc.md) | Exploitation / PrivEsc | Metasploit, nmap SUID |
 | 06 | [pfSense Firewall Setup & Traffic Control](exercises/03-defense-and-detection/06-pfsense-firewall.md) | Defense / Detection | pfSense, Metasploit, Nmap |
+| 07 | [Splunk SIEM Setup & Real-Time Detection](exercises/04-soc-analysis/07-splunk-siem-detection.md) | SOC Analysis / SIEM | Splunk, pfSense, Metasploit |
 
 ## 🎯 Learning Path
 
@@ -35,7 +38,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - [x] Privilege escalation
 - [x] pfSense firewall configuration
 - [ ] Microsoft Sentinel SIEM setup
-- [ ] Splunk SIEM setup
+- [x] Splunk SIEM setup
 - [ ] Detection rule engineering
 - [ ] CTF writeups
 
