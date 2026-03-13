@@ -32,7 +32,7 @@ Metasploitable2 (192.168.1.100)
   └── Protected behind pfSense firewall
 ```
 
-### Screenshot — Full Lab: All Three VMs Running with Splunk Active
+### Full Lab: All Three VMs Running with Splunk Active
 ![Lab Overview](../screenshots/07-lab-overview.png)
 
 ---
@@ -79,7 +79,7 @@ pfSense was configured to forward firewall logs to Splunk:
 | Remote Log Server | 192.168.56.102:514 |
 | Remote Syslog Contents | Firewall Events |
 
-### Screenshot — pfSense Remote Logging Configuration
+### pfSense Remote Logging Configuration
 ![pfSense Remote Logging](../screenshots/07-pfsense-remote-logging.png)
 
 ---
@@ -118,7 +118,7 @@ index=main match,block 192.168.56.102
 **Result:** 7 blocked events from `192.168.56.102` targeting
 `192.168.1.100:21`.
 
-### Screenshot — Splunk Search Showing Blocked Events from pfSense
+### Splunk Search Showing Blocked Events from pfSense
 ![Splunk Blocked Events](../screenshots/07-splunk-blocked-events.png)
 
 ---
@@ -141,7 +141,7 @@ A real-time alert was created in Splunk:
 each blocked connection attempt triggered an immediate High severity
 alert in Splunk's Triggered Alerts dashboard.
 
-### Screenshot — Triggered Alerts Firing in Real-Time
+### Triggered Alerts Firing in Real-Time
 ![Triggered Alerts](../screenshots/07-triggered-alerts.png)
 
 ---
