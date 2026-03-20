@@ -30,6 +30,8 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 07 | [Splunk SIEM Setup & Real-Time Detection](exercises/04-soc-analysis/07-splunk-siem-detection.md) | SOC Analysis / SIEM | Splunk, pfSense, Metasploit |
 | 08 | [SSH Brute Force Attack & Detection](exercises/04-soc-analysis/08-ssh-brute-force.md) | SOC Analysis / Attack Detection | Hydra, Splunk, pfSense |
 | 09 | [Port Scan Detection via Splunk SIEM](exercises/01-reconnaissance/09-port-scan-detection.md) | Reconnaissance / SOC Detection | Nmap, Splunk, pfSense |
+| 10 | [SQL Injection Attack (DVWA)](exercises/05-web-attacks/10-dvwa-sql-injection.md) | Web Attacks | DVWA, Firefox, MySQL |
+| 11 | [Cross-Site Scripting XSS (DVWA)](exercises/05-web-attacks/11-dvwa-xss.md) | Web Attacks | DVWA, Firefox |
 
 ## 🎯 Learning Path
 
