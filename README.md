@@ -29,6 +29,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 06 | [pfSense Firewall Setup & Traffic Control](exercises/03-defense-and-detection/06-pfsense-firewall.md) | Defense / Detection | pfSense, Metasploit, Nmap |
 | 07 | [Splunk SIEM Setup & Real-Time Detection](exercises/04-soc-analysis/07-splunk-siem-detection.md) | SOC Analysis / SIEM | Splunk, pfSense, Metasploit |
 | 08 | [SSH Brute Force Attack & Detection](exercises/04-soc-analysis/08-ssh-brute-force.md) | SOC Analysis / Attack Detection | Hydra, Splunk, pfSense |
+| 09 | [Port Scan Detection via Splunk SIEM](exercises/01-reconnaissance/09-port-scan-detection.md) | Reconnaissance / SOC Detection | Nmap, Splunk, pfSense |
 
 ## 🎯 Learning Path
 
