@@ -58,4 +58,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 ## 🛠️ Tools Used
 Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · 
 VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · 
-DVWA · 
+DVWA · Firefox · MySQL
