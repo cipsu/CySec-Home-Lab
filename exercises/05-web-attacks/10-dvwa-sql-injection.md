@@ -35,7 +35,7 @@ Metasploitable2. Accessed via Kali's Firefox browser at
 demonstrate unsanitised input handling.
 
 ### Screenshot — DVWA Dashboard
-![DVWA Dashboard](../screenshots/10-dvwa-dashboard.png)
+![DVWA Dashboard](../screenshots/10-DVWA-dashboard.png)
 
 ---
 
