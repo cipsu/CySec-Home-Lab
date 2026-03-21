@@ -32,6 +32,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 09 | [Port Scan Detection via Splunk SIEM](exercises/01-reconnaissance/09-port-scan-detection.md) | Reconnaissance / SOC Detection | Nmap, Splunk, pfSense |
 | 10 | [SQL Injection Attack (DVWA)](exercises/05-web-attacks/10-dvwa-sql-injection.md) | Web Attacks | DVWA, Firefox, MySQL |
 | 11 | [Cross-Site Scripting XSS (DVWA)](exercises/05-web-attacks/11-dvwa-xss.md) | Web Attacks | DVWA, Firefox |
+| 12 | [Offline Password Cracking with Hashcat](exercises/02-exploitation/12-password-cracking-hashcat.md) | Exploitation / Credential Access | Hashcat, Metasploit |
 
 ## 🎯 Learning Path
 
@@ -58,4 +59,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 ## 🛠️ Tools Used
 Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · 
 VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · 
-DVWA · Firefox · MySQL
+DVWA · Firefox · MySQL · Hashcat · 
