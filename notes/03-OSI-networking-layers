@@ -7,3 +7,10 @@
 | Layer 3      | Network      | Logical addressing and routing between networks       | IP, ICMP, IPsec                           |
 | Layer 2      | Data Link    | Reliable data transfer between adjacent nodes         | Ethernet (802.3), Wi-Fi (802.11), ARP     |
 | Layer 1      | Physical     | Physical data transmission media                      | Electrical, optical, and wireless signals |
+
+
+RFC 1918 defines the following three ranges of private IP addresses:
+
+    10.0.0.0 - 10.255.255.255 (10/8)
+    172.16.0.0 - 172.31.255.255 (172.16/12)
+    192.168.0.0 - 192.168.255.255 (192.168/16)
