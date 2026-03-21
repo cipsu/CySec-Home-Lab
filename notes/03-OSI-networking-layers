@@ -1,9 +1,9 @@
-| Layer Number | Layer Name         | Main Function                                              | Example Protocols and Standards                          |
-|--------------|------------------|-----------------------------------------------------------|----------------------------------------------------------|
-| Layer 7      | Application       | Providing services and interfaces to applications         | HTTP, HTTPS, FTP, SMTP, DNS                              |
-| Layer 6      | Presentation      | Data encoding, encryption, and compression                | Unicode, SSL/TLS, JPEG, PNG, MPEG                        |
-| Layer 5      | Session           | Establishing, maintaining, and synchronising sessions     | NFS, RPC, NetBIOS                                        |
-| Layer 4      | Transport         | End-to-end communication and data segmentation            | TCP, UDP                                                 |
-| Layer 3      | Network           | Logical addressing and routing between networks           | IP, ICMP, IPsec                                          |
-| Layer 2      | Data Link         | Reliable data transfer between adjacent nodes             | Ethernet (802.3), Wi-Fi (802.11), ARP                    |
-| Layer 1      | Physical          | Physical data transmission media                          | Electrical, optical, and wireless signals                |
+| Layer Number | Layer Name         | Main Function                                             | Example Protocols and Standards                          |
+|--------------|--------------------|-----------------------------------------------------------|----------------------------------------------------------|
+| Layer 7      | Application        | Providing services and interfaces to applications         | HTTP, HTTPS, FTP, SMTP, DNS                              |
+| Layer 6      | Presentation       | Data encoding, encryption, and compression                | Unicode, SSL/TLS, JPEG, PNG, MPEG                        |
+| Layer 5      | Session            | Establishing, maintaining, and synchronising sessions     | NFS, RPC, NetBIOS                                        |
+| Layer 4      | Transport          | End-to-end communication and data segmentation            | TCP, UDP                                                 |
+| Layer 3      | Network            | Logical addressing and routing between networks           | IP, ICMP, IPsec                                          |
+| Layer 2      | Data Link          | Reliable data transfer between adjacent nodes             | Ethernet (802.3), Wi-Fi (802.11), ARP                    |
+| Layer 1      | Physical           | Physical data transmission media                          | Electrical, optical, and wireless signals                |
