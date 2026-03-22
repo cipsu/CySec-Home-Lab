@@ -164,5 +164,4 @@ Hydra tests candidate passwords against SSH port 22
 - Deploy Fail2ban on any internet-facing Linux host — automatically bans source IPs after repeated SSH failures and is considered industry standard
 - Disable SSH password authentication entirely and enforce key-based authentication only
 - Deploy a Web Application Firewall to detect and block rapid sequential POST requests to login endpoints
-- Monitor `/var/log/auth.log` on Linux hosts and web server access logs for authentication failure spikes — a Splunk alert threshold of >5 failures per minute is a practical starting point
-```
+- Monitor `/var/log/auth.log` on Linux hosts and web server access logs for authentication failure spikes — a Splunk alert threshold of >5 failures per minute is a practical starting poin
