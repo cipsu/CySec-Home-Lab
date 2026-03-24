@@ -34,6 +34,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 11 | [Cross-Site Scripting XSS (DVWA)](exercises/05-web-attacks/11-dvwa-xss.md) | Web Attacks | DVWA, Firefox |
 | 12 | [Offline Password Cracking with Hashcat](exercises/02-exploitation/12-password-cracking-hashcat.md) | Exploitation / Credential Access | Hashcat, Metasploit |
 | 13 | [Hydra Brute Force: Web Form & SSH](exercises/04-soc-analysis/13-hydra-brute-force-web-ssh.md) | SOC Analysis / Attack Detection | Hydra, OpenVPN |
+| 14 | [Metasploit Post-Exploitation: Crontab Persistence](exercises/08-post-exploitation/14-crontab-persistence.md) | Post-Exploitation / Persistence | Metasploit, Netcat, pfSense |
 
 ## 🎯 Learning Path
 
