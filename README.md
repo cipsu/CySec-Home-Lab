@@ -35,6 +35,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 12 | [Offline Password Cracking with Hashcat](exercises/02-exploitation/12-password-cracking-hashcat.md) | Exploitation / Credential Access | Hashcat, Metasploit |
 | 13 | [Hydra Brute Force: Web Form & SSH](exercises/04-soc-analysis/13-hydra-brute-force-web-ssh.md) | SOC Analysis / Attack Detection | Hydra, OpenVPN |
 | 14 | [Metasploit Post-Exploitation: Crontab Persistence](exercises/08-post-exploitation/14-crontab-persistence.md) | Post-Exploitation / Persistence | Metasploit, Netcat, pfSense |
+| 15 | [Active Directory Enumeration & Kerberoasting](exercises/06-active-directory/15-active-directory-kerberoasting.md) | Active Directory / Credential Access | CrackMapExec, Impacket, Hashcat, BloodHound |
 
 ## 🎯 Learning Path
 
@@ -59,6 +60,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - AWS Cloud Practitioner
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · 
-VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · 
-DVWA · Firefox · MySQL · Hashcat · 
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · 
