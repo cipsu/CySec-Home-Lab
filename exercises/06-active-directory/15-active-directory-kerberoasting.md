@@ -155,7 +155,7 @@ hashcat -m 13100 -a 0 ~/svc-backup.hash ~/ad-passwords.txt
 | `~/svc-backup.hash` | Target hash file |
 | `~/ad-passwords.txt` | Wordlist |
 
-**Result: `svc-backup:Backup2024!` — cracked in under 1 second.**
+**Result: `svc-backup:Backup2024!` — cracked in under 1 second because a fictitious password list file was used with the password included. In a real scenario this would take much longer**
 
 This is the core danger of Kerberoasting — the entire attack from
 ticket request to plaintext password happens entirely on the attacker's
