@@ -14,8 +14,9 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | Victim VM | Windows 10 — 192.168.56.101 |
 | Firewall VM | pfSense 2.7.2 — WAN 192.168.56.104 / LAN 192.168.1.1 |
 | Target VM | Metasploitable 2 — 192.168.1.100 |
+| Domain Controller | Windows Server 2022 — 192.168.56.105 (lab.local) |
 | SIEM | Splunk Enterprise — http://localhost:8000 |
-| Network | Host-Only (Kali + pfSense WAN) / Internal Network (pfSense LAN + Metasploitable) |
+| Network | Host-Only (Kali + pfSense WAN + DC) / Internal Network (pfSense LAN + Metasploitable) |
 
 ## 📋 Exercises
 
