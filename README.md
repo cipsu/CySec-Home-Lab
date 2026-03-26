@@ -37,6 +37,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 13 | [Hydra Brute Force: Web Form & SSH](exercises/04-soc-analysis/13-hydra-brute-force-web-ssh.md) | SOC Analysis / Attack Detection | Hydra, OpenVPN |
 | 14 | [Metasploit Post-Exploitation: Crontab Persistence](exercises/08-post-exploitation/14-crontab-persistence.md) | Post-Exploitation / Persistence | Metasploit, Netcat, pfSense |
 | 15 | [Active Directory Enumeration & Kerberoasting](exercises/06-active-directory/15-active-directory-kerberoasting.md) | Active Directory / Credential Access | CrackMapExec, Impacket, Hashcat, BloodHound |
+| 16 | [Web Reconnaissance: Nmap & Gobuster](exercises/01-reconnaissance/16-nmap-gobuster-web-recon.md) | Reconnaissance | Nmap, Gobuster |
 
 ## 🎯 Learning Path
 
@@ -48,7 +49,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - [x] pfSense firewall configuration
 - [ ] Microsoft Sentinel SIEM setup
 - [x] Splunk SIEM setup
-- [ ] Detection rule engineering
+- [x] Detection rule engineering
 - [ ] CTF writeups
 
 ## 📜 Certifications
@@ -61,4 +62,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - AWS Cloud Practitioner
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · 
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster
