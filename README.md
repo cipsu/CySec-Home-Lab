@@ -40,6 +40,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 16 | [Web Reconnaissance: Nmap & Gobuster](exercises/01-reconnaissance/16-nmap-gobuster-web-recon.md) | Reconnaissance | Nmap, Gobuster |
 | 17 | [Command Injection Attack (DVWA)](exercises/05-web-attacks/17-dvwa-command-injection.md) | Web Attacks | DVWA, Firefox |
 | 18 | [File Upload Attack & PHP Webshell (DVWA)](exercises/05-web-attacks/18-dvwa-file-upload-webshell.md) | Web Attacks | DVWA, Firefox |
+| 19 | [Nikto Web Vulnerability Scanner](exercises/01-reconnaissance/19-nikto-web-scanner.md) | Reconnaissance | Nikto |
 
 ## 🎯 Learning Path
 
@@ -58,10 +59,11 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 *In progress:*
 - CompTIA Security+
 - CompTIA Network+
-- CompTIA CySA+
 - Google Cybersecurity Professional Certificate
 - Microsoft Azure Fundamentals (AZ-900)
 - AWS Cloud Practitioner
+- CompTIA CySA+
+- and more
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto
