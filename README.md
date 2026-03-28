@@ -39,6 +39,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 15 | [Active Directory Enumeration & Kerberoasting](exercises/06-active-directory/15-active-directory-kerberoasting.md) | Active Directory / Credential Access | CrackMapExec, Impacket, Hashcat, BloodHound |
 | 16 | [Web Reconnaissance: Nmap & Gobuster](exercises/01-reconnaissance/16-nmap-gobuster-web-recon.md) | Reconnaissance | Nmap, Gobuster |
 | 17 | [Command Injection Attack (DVWA)](exercises/05-web-attacks/17-dvwa-command-injection.md) | Web Attacks | DVWA, Firefox |
+| 18 | [File Upload Attack & PHP Webshell (DVWA)](exercises/05-web-attacks/18-dvwa-file-upload-webshell.md) | Web Attacks | DVWA, Firefox |
 
 ## 🎯 Learning Path
 
