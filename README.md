@@ -50,11 +50,24 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - [x] Service enumeration
 - [x] Remote exploitation
 - [x] Privilege escalation
+- [x] Post-exploitation & persistence
 - [x] pfSense firewall configuration
-- [ ] Microsoft Sentinel SIEM setup
 - [x] Splunk SIEM setup
 - [x] Detection rule engineering
-- [ ] CTF writeups
+- [x] Brute force attacks & detection
+- [x] Web application attacks (SQLi, XSS, Command Injection, File Upload)
+- [x] Offline password cracking
+- [x] Credential reuse attacks
+- [x] Active Directory enumeration & Kerberoasting
+- [x] Automated web vulnerability scanning
+- [ ] Active Directory — Pass-the-Hash & lateral movement
+- [ ] Active Directory — BloodHound attack path analysis
+- [ ] Microsoft Sentinel SIEM setup & KQL detection queries
+- [ ] Wireshark packet analysis
+- [ ] Snort/Suricata IDS deployment
+- [ ] Malware analysis & IOC extraction
+- [ ] CTF writeups (TryHackMe)
+- [ ] OSCP preparation
 
 ## 📜 Certifications
 *In progress:*
