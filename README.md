@@ -41,6 +41,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 17 | [Command Injection Attack (DVWA)](exercises/05-web-attacks/17-dvwa-command-injection.md) | Web Attacks | DVWA, Firefox |
 | 18 | [File Upload Attack & PHP Webshell (DVWA)](exercises/05-web-attacks/18-dvwa-file-upload-webshell.md) | Web Attacks | DVWA, Firefox |
 | 19 | [Nikto Web Vulnerability Scanner](exercises/01-reconnaissance/19-nikto-web-scanner.md) | Reconnaissance | Nikto |
+| 20 | [Credential Reuse Attack](exercises/02-exploitation/20-credential-reuse-attack.md) | Exploitation / Credential Access | SSH |
 
 ## 🎯 Learning Path
 
@@ -66,4 +67,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - and more
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH
