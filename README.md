@@ -44,6 +44,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 20 | [Credential Reuse Attack](exercises/02-exploitation/20-credential-reuse-attack.md) | Exploitation / Credential Access | SSH |
 | 21 | [Pass-the-Hash Attack](exercises/06-active-directory/21-pass-the-hash.md) | Active Directory / Lateral Movement | Impacket, CrackMapExec |
 | 22 | [Wireshark Packet Analysis](exercises/01-reconnaissance/22-wireshark-packet-analysis.md) | Reconnaissance / SOC Analysis | Wireshark, Nmap, CrackMapExec |
+| 23 | [Splunk Detection Engineering](exercises/04-soc-analysis/23-splunk-detection-engineering.md) | SOC Analysis / Detection Engineering | Splunk, Nmap, Hydra |
 
 ## 🎯 Learning Path
 
