@@ -95,13 +95,16 @@ sudo nano /etc/suricata/rules/local.rules
 ```
 
 ```bash
-Port scan detection
+# Port scan detection
 alert tcp any any -> $HOME_NET any (msg:"PORT SCAN DETECTED - Multiple ports"; flags:S; threshold:type threshold, track by_src, count 20, seconds 10; sid:1000001; rev:1;)
-SSH brute force detection
+
+# SSH brute force detection
 alert tcp any any -> $HOME_NET 22 (msg:"SSH BRUTE FORCE DETECTED"; flags:S; threshold:type threshold, track by_src, count 5, seconds 60; sid:1000002; rev:1;)
-FTP connection attempt
+
+# FTP connection attempt
 alert tcp any any -> $HOME_NET 21 (msg:"FTP CONNECTION ATTEMPT - Port 21"; flags:S; sid:1000003; rev:1;)
-SMB connection attempt
+
+# SMB connection attempt
 alert tcp any any -> $HOME_NET 445 (msg:"SMB CONNECTION ATTEMPT - Port 445"; flags:S; sid:1000004; rev:1;)
 ```
 
