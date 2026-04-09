@@ -249,13 +249,15 @@ is correctly configured with least-privilege principles.
 ---
 
 ## Attack Chain Summary
-bloodhound-python collects all domain objects and relationships
-  → BloodHound maps 8 nodes across users, groups, and domain
-    → Tier Zero identified — Administrator and krbtgt are crown jewels
-      → Kerberoastable accounts found — svc-backup already cracked in Ex.15
-        → Domain Admins confirmed — Administrator only, correctly configured
-          → DCSync rights held by expected admin groups only
-            → No path from jsmith to Domain Admin — least privilege working
+```
+Bloodhound-python collects all domain objects and relationships
+    → BloodHound maps 8 nodes across users, groups, and domain
+        → Tier Zero identified — Administrator and krbtgt are crown jewels
+            → Kerberoastable accounts found — svc-backup already cracked in Ex.15
+                → Domain Admins confirmed — Administrator only, correctly configured
+                    → DCSync rights held by expected admin groups only
+                        → No path from jsmith to Domain Admin — least privilege working
+```
 
 ---
 
