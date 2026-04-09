@@ -72,7 +72,9 @@ bloodhound-python -u jsmith -p 'Password123!' -d lab.local \
 
 The first query returned all domain objects — users, computers,
 groups, and the domain node itself:
+```bash
 MATCH (u:User) RETURN u
+```
 
 **Result:** 8 nodes returned including all domain accounts created
 in Exercise 15 plus built-in accounts.
@@ -122,7 +124,9 @@ immediate investigation regardless of time of day.
 ---
 
 ## Part C — Kerberoastable Account Identification
+```bash
 MATCH (u:User) WHERE u.hasspn=true RETURN u
+```
 
 **Result:** Two Kerberoastable accounts identified:
 - `SVC-BACKUP@LAB.LOCAL` — service account with HTTP SPN registered
@@ -153,9 +157,11 @@ be Kerberoasted.
 ---
 
 ## Part D — Domain Admin Membership
+```bash
 MATCH (u:User)-[:MemberOf1..]->(g:Group)
 WHERE g.name =~ "(?i)domain admins."
 RETURN u, g
+```
 
 **Result:** Domain Admins group contains `ADMINISTRATOR@LAB.LOCAL`
 only — no unexpected accounts with Domain Admin privileges.
@@ -183,8 +189,10 @@ DCSync is a technique that allows an account to replicate all
 password hashes from a Domain Controller — effectively dumping
 the entire domain credential store without touching the DC locally.
 Any account or group with DCSync rights is a critical risk.
+```bash
 MATCH (u)-[:DCSync|AllExtendedRights|GenericAll*1..]->(d:Domain)
 RETURN u
+```
 
 **Result:** Three groups identified with DCSync rights:
 - `DOMAIN ADMINS@LAB.LOCAL`
@@ -221,10 +229,12 @@ requiring immediate remediation.
 
 A shortest path query was run to determine whether jsmith (standard
 domain user) had any exploitable path to Domain Admin:
+```bash
 MATCH (u:User {name:"JSMITH@LAB.LOCAL"}),
 (g:Group {name:"DOMAIN ADMINS@LAB.LOCAL"}),
 p=shortestPath((u)-[*1..]->(g))
 RETURN p
+```
 
 **Result:** No path found.
 
@@ -240,12 +250,12 @@ is correctly configured with least-privilege principles.
 
 ## Attack Chain Summary
 bloodhound-python collects all domain objects and relationships
-→ BloodHound maps 8 nodes across users, groups, and domain
-→ Tier Zero identified — Administrator and krbtgt are crown jewels
-→ Kerberoastable accounts found — svc-backup already cracked in Ex.15
-→ Domain Admins confirmed — Administrator only, correctly configured
-→ DCSync rights held by expected admin groups only
-→ No path from jsmith to Domain Admin — least privilege working
+  → BloodHound maps 8 nodes across users, groups, and domain
+    → Tier Zero identified — Administrator and krbtgt are crown jewels
+      → Kerberoastable accounts found — svc-backup already cracked in Ex.15
+        → Domain Admins confirmed — Administrator only, correctly configured
+          → DCSync rights held by expected admin groups only
+            → No path from jsmith to Domain Admin — least privilege working
 
 ---
 
