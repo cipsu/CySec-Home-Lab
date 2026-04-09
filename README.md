@@ -46,6 +46,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 22 | [Wireshark Packet Analysis](exercises/01-reconnaissance/22-wireshark-packet-analysis.md) | Reconnaissance / SOC Analysis | Wireshark, Nmap, CrackMapExec |
 | 23 | [Splunk Detection Engineering](exercises/04-soc-analysis/23-splunk-detection-engineering.md) | SOC Analysis / Detection Engineering | Splunk, Nmap, Hydra |
 | 24 | [BloodHound Attack Path Analysis](exercises/06-active-directory/24-bloodhound-attack-path-analysis.md) | Active Directory / Threat Analysis | BloodHound, Neo4j |
+| 25 | [Suricata IDS Setup & Attack Detection](exercises/03-defense-and-detection/25-suricata-ids-setup.md) | Defense / Detection | Suricata, Nmap, Hydra |
 
 ## 🎯 Learning Path
 
@@ -84,4 +85,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - and more
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata
