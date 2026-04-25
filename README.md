@@ -48,6 +48,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 24 | [BloodHound Attack Path Analysis](exercises/06-active-directory/24-bloodhound-attack-path-analysis.md) | Active Directory / Threat Analysis | BloodHound, Neo4j |
 | 25 | [Suricata IDS Setup & Attack Detection](exercises/03-defense-and-detection/25-suricata-ids-setup.md) | Defense / Detection | Suricata, Nmap, Hydra |
 | 26 | [AI Supply Chain Attack Analysis](exercises/07-malware-analysis/26-ai-supply-chain-attack-analysis.md) | Malware Analysis | pickletools, pip-audit |
+| 27 | [Windows Event Log & Sysmon Investigation](exercises/04-soc-analysis/27-windows-event-log-sysmon.md) | SOC Analysis | Sysmon, Event Viewer, CrackMapExec, Impacket |
 
 ## 🎯 Learning Path
 
@@ -87,4 +88,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - and more
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata · pickletools · pip-audit · 
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata · pickletools · pip-audit · Sysmon · Event Viewer · 
