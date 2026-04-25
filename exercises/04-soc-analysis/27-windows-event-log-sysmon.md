@@ -158,7 +158,7 @@ The source IP confirms the logon attempt originated from Kali.
 Multiple 4625 events from the same source IP in a short time window is the classic failed-logon brute force pattern — the foundation of most account lockout detection rules in production SIEM environments.
 
 ### Screenshot — Event ID 4625 Failed Logon
-![Event Viewer showing 4625 event with Kali source IP and Logon Type 3](../screenshots/27-event-4625-failed-logon.png)
+![Event Viewer showing 4625 event with Kali source IP and Logon Type 3](../screenshots/27-event-4625-failed-log.png)
 
 ### Successful Logon via Pass-the-Hash (Event ID 4624)
 
