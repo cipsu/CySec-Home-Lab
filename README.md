@@ -52,6 +52,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 28 | [Malware Analysis: Agent Tesla Sandbox](exercises/07-malware-analysis/28-agent-tesla-sandbox-analysis.md) | Malware Analysis | Any.run |
 | 29 | [Burp Suite Web Application Testing](exercises/05-web-attacks/29-burp-suite-web-testing.md) | Web Attacks | Burp Suite |
 | 30 | [Python Log Parser: pfSense Firewall Analysis](exercises/04-soc-analysis/30-python-log-parser.md) | SOC Analysis | Python 3, Splunk, nano |
+| 31 | [Python IOC Checker: AbuseIPDB Threat Intelligence](exercises/04-soc-analysis/31-python-ioc-checker.md) | SOC Analysis | Python 3, AbuseIPDB, nano |
 
 ## 🎯 Learning Path
 
