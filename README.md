@@ -49,6 +49,8 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 25 | [Suricata IDS Setup & Attack Detection](exercises/03-defense-and-detection/25-suricata-ids-setup.md) | Defense / Detection | Suricata, Nmap, Hydra |
 | 26 | [AI Supply Chain Attack Analysis](exercises/07-malware-analysis/26-ai-supply-chain-attack-analysis.md) | Malware Analysis | pickletools, pip-audit |
 | 27 | [Windows Event Log & Sysmon Investigation](exercises/04-soc-analysis/27-windows-event-log-sysmon.md) | SOC Analysis | Sysmon, Event Viewer, CrackMapExec, Impacket |
+| 28 | [Malware Analysis: Agent Tesla Sandbox](exercises/07-malware-analysis/28-agent-tesla-sandbox-analysis.md) | Malware Analysis | Any.run |
+| 29 | [Burp Suite Web Application Testing](exercises/05-web-attacks/29-burp-suite-web-testing.md) | Web Attacks | Burp Suite |
 
 ## 🎯 Learning Path
 
@@ -88,4 +90,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - and more
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata · pickletools · pip-audit · Sysmon · Event Viewer · 
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata · pickletools · pip-audit · Sysmon · Event Viewer · Any.run · Burp Suite
