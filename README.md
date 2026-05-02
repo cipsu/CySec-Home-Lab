@@ -54,8 +54,8 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 30 | [Python Log Parser: pfSense Firewall Analysis](exercises/04-soc-analysis/30-python-log-parser.md) | SOC Analysis | Python 3, Splunk, nano |
 | 31 | [Python IOC Checker: AbuseIPDB Threat Intelligence](exercises/04-soc-analysis/31-python-ioc-checker.md) | SOC Analysis | Python 3, AbuseIPDB, nano |
 | 32 | [Hash Cracking: Hashcat & Rainbow Tables](exercises/02-exploitation/32-hash-cracking-hashcat-and-rainbow-tables.md) | Exploitation | Hashcat, hashes.com |
-| 33 | [TryHackMe: Metasploit Meterpreter](exercises/10ctf-writeups/33-thm-meterpreter.md) | CTF / Post-Exploitation | Metasploit, Meterpreter, Kiwi |
-| 34 | [TryHackMe: Blue (EternalBlue MS17-010)](exercises/10ctf-writeups/34-thm-blue.md) | CTF / Exploitation | Nmap, Metasploit, Hashcat |
+| 33 | [TryHackMe: Metasploit Meterpreter](exercises/10-ctf-writeups/33-thm-meterpreter.md) | CTF / Post-Exploitation | Metasploit, Meterpreter, Kiwi |
+| 34 | [TryHackMe: Blue (EternalBlue MS17-010)](exercises/10-ctf-writeups/34-thm-blue.md) | CTF / Exploitation | Nmap, Metasploit, Hashcat |
 
 ## 🎯 Learning Path
 
