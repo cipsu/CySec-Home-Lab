@@ -56,6 +56,7 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 | 32 | [Hash Cracking: Hashcat & Rainbow Tables](exercises/02-exploitation/32-hash-cracking-hashcat-and-rainbow-tables.md) | Exploitation | Hashcat, hashes.com |
 | 33 | [TryHackMe: Metasploit Meterpreter](exercises/10-ctf-writeups/33-thm-meterpreter.md) | CTF / Post-Exploitation | Metasploit, Meterpreter, Kiwi |
 | 34 | [TryHackMe: Blue (EternalBlue MS17-010)](exercises/10-ctf-writeups/34-thm-blue.md) | CTF / Exploitation | Nmap, Metasploit, Hashcat |
+| 35 | [Phishing Email Analysis: Header Forensics & IOC Extraction](exercises/04-soc-analysis/35-phishing-email-analysis.md) | SOC Analysis | MXToolbox, WhoIsDomain |
 
 ## 🎯 Learning Path
 
@@ -95,4 +96,4 @@ transition into cybersecurity (SOC Analyst / Junior Security Analyst).
 - and more
 
 ## 🛠️ Tools Used
-Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata · pickletools · pip-audit · Sysmon · Event Viewer · Any.run · Burp Suite · Python3 · Meterpreter · Kiwi
+Nmap · Metasploit · enum4linux · Wireshark · Kali Linux · VirtualBox · Splunk · Microsoft Sentinel · pfSense · Hydra · DVWA · Firefox · MySQL · Hashcat · CrackMapExec · Impacket · BloodHound · nano · Gobuster · Nikto · SSH · Neo4j · Suricata · pickletools · pip-audit · Sysmon · Event Viewer · Any.run · Burp Suite · Python3 · Meterpreter · Kiwi · MXToolbox · WhoIsDomain
