@@ -67,7 +67,7 @@ the fraud immediately visible at the header level.
 
 ![GitHub phishing_pot page showing the sample email with raw headers visible](../screenshots/35-github-sample-and-header.png)
 
-Key header findings extracted via `cat`:
+Key header findings extracted from Github:
 
 ```
 From:        programme_tv@ml.tv-news.fr  (claims Leroy Merlin)
